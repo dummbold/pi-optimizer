@@ -1,6 +1,6 @@
 # Pi-Optimizer
 
-## GERMAN 🇩🇪
+## DEUTSCH 🇩🇪
 Der Pi-Optimizer ist ein Unix Shellscript für Raspberry Pi computer die "headless" (also ohne Monitor und Tastatur) arbeiten sollen. Diese benötigen eine Reihe von Funktionen nicht, die standardmäßig im Pi-OS installiert sind, geladen werden und RAM und CPU-Leistung benötigen. Durch das Script werden diese Funktionen ausgeschaltet - und zwar nachhaltig! Oftmals reicht ein einfaches abschalten in der /boot/firmware/config.txt nicht. Sie müssen noch zusätzlich auf die "Blacklist" gesetzt werden. All das macht das Script interaktiv.
 
 Im Einzelnen betrifft das folgende Funktionen:
