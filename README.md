@@ -1,7 +1,7 @@
-# Pi-Optimizer
+# PiPutzer ("PiCleaner")
 
 ## DEUTSCH 🇩🇪
-Der Pi-Optimizer ist ein Unix Shellscript für Raspberry Pi computer die "headless" (also ohne Monitor und Tastatur) arbeiten sollen. Diese benötigen eine Reihe von Funktionen nicht, die standardmäßig im Pi-OS installiert sind, geladen werden und RAM und CPU-Leistung benötigen. Durch das Script werden diese Funktionen ausgeschaltet - und zwar nachhaltig! Oftmals reicht ein einfaches Abschalten in der /boot/firmware/config.txt nicht. Sie müssen noch zusätzlich auf die "Blacklist" gesetzt werden. All das macht das Script interaktiv.
+Der PiPutzer ist ein Unix Shellscript für Raspberry Pi computer die "headless" (also ohne Monitor und Tastatur) arbeiten sollen. Diese benötigen eine Reihe von Funktionen nicht, die standardmäßig im Pi-OS installiert sind, geladen werden und RAM und CPU-Leistung benötigen. Durch das Script werden diese Funktionen ausgeschaltet - und zwar nachhaltig! Oftmals reicht ein einfaches Abschalten in der /boot/firmware/config.txt nicht. Sie müssen noch zusätzlich auf die "Blacklist" gesetzt werden. All das macht das Script interaktiv.
 
 Im Einzelnen betrifft das folgende Funktionen:
 
@@ -21,7 +21,7 @@ ACHTUNG: die Funktionen werden NICHT GELÖSCHT - nur abgeschaltet. Sie können a
 ---
 
 ## English 🇺🇸🇬🇧
-The Pi-Optimizer is a Unix shell script for Raspberry Pi computers that are intended to run "headless" (without a monitor and keyboard). These systems do not require a number of functions that are installed and loaded by default in Pi-OS, consuming RAM and CPU power. The script disables these functions – permanently! Often, simply turning them off in the /boot/firmware/config.txt file is not enough. They must also be added to the "blacklist." The script handles this interactively.
+The PiPutzer ("PiCleaner") is a Unix shell script for Raspberry Pi computers that are intended to run "headless" (without a monitor and keyboard). These systems do not require a number of functions that are installed and loaded by default in Pi-OS, consuming RAM and CPU power. The script disables these functions – permanently! Often, simply turning them off in the /boot/firmware/config.txt file is not enough. They must also be added to the "blacklist." The script handles this interactively.
 
 Specifically, the following functions are affected:
 
